@@ -1,0 +1,11 @@
+.hero{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/HADA%2FHero_HADA.png?alt=media&token=53bf9167-4ef1-41bf-b3b8-4ca4aa701747');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (max-width:500px) {
+    .hero{
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/HADA%2FHero_HADA_mobil.png?alt=media&token=5b26b497-2dc4-4d29-bd18-b825e88f68c7');
+    }
+}

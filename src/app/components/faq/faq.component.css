@@ -1,0 +1,18 @@
+.ani{
+    transition: height .3s cubic-bezier(.455,.03,.515,.955);
+    cursor: pointer;
+}
+
+.divPadre{
+    background-color: red;
+}
+.divHijo{
+    background-color: aqua;
+}
+.divPadre:hover .divHijo{
+    background-color: blueviolet;
+}
+.hover-state{
+    transform: rotate(90deg);
+    transition: height .6s cubic-bezier(.455,.03,.515,.955);
+}
